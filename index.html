@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>For You, On Your Birthday</title>
+  <style>
+    body {
+      background-color: #fff3e6;
+      font-family: Georgia, serif;
+      color: #333;
+      padding: 40px;
+      max-width: 700px;
+      margin: auto;
+      display: none;
+    }
+    h1 {
+      font-size: 36px;
+      color: #c96;
+    }
+    p {
+      line-height: 1.6;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Hi.</h1>
+  <p>This might feel strange, but today... I thought of you.</p>
+  <p>And I just wanted to say happy birthday.</p>
+
+  <script>
+    const password = "april16"; // Ganti password di sini
+    const userInput = prompt("Enter the password:");
+    if (userInput === password) {
+      document.body.style.display = "block";
+    } else {
+      document.write("Wrong password.");
+    }
+  </script>
+</body>
+</html>
